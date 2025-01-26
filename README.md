@@ -1,8 +1,5 @@
-# React + Vite
+# Gym Workout App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web application essentially provides users the ability to create their own customizable workout based on their personal goals and preferences. For this project, I involved React to construct dynamic interfaces and reduces redundancy with reusable components, including Tailwind CSS for consistent design patterns, speed and efficiency as utilities are predefined, and seamless integration with React.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+First, the users clicks the Accept button where it transitions to the workout building process. There are three sections in this stage of the website. The first step is to determine the workout you would like to focus on. There are 4 different options which are Individual, Bro Split, Bodybuilder Split, and Upper Lower. The second step requires you to select the muscle you want to emphasize. The options vary based on the selection you made in the previous step. The last step is to decide your goal, whether its to build strength, muscle growth, or for endurance. Afterwards, you would sumbit your selections, and your personalized workout plan will be shown below.
